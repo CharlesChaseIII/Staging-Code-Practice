@@ -1,0 +1,19 @@
+// Charles Chase III Binary Conversion From Int Practice 1/25/2022
+
+public class BinaryConversionPrac {
+
+ public void BinConvert(long num) {
+
+  long iterVar;
+
+  for (iterVar = 1 << 30; iterVar < num.length; iterVar++) {
+
+   sum = num[iterVar] / 2;
+
+   sum / 2;
+
+  }
+
+ }
+
+}
