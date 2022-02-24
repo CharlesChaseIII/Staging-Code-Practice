@@ -1,0 +1,32 @@
+// Charles Chase III String Compression Practice 2/21/2022
+
+public class stringCompressionPractice {
+
+int accumulator;
+
+String compressor = null;
+
+ public String stringCompress(String str) {
+ 
+  for (int i = 0; i < str.length(); i++) {
+
+  while (int s = 0; s < str.length; s++) {
+          
+         accumulator = 0;
+
+    if (str.charAt(i).equals(i + s)) {
+        
+        accumulator ++;
+
+        compressor += str.charAt(i) + accumulator;
+    }
+
+   }
+  
+  }
+
+ }
+
+return compressor;
+
+}
