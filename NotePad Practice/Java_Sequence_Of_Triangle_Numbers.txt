@@ -1,0 +1,59 @@
+// Charles Chase III Sequence Of Triangles
+
+// Create a for loop that iterates through 10000.
+
+// Inside for loop create a while loop that checks while iterVar2 < iterVar1
+// have an accumulator variable set to 0 that gets added to each value of // iterVar per iteration.
+
+// After while loop is finished assign accumulator value to that of triNum // array at index i. 
+
+// Create a second while loop after the first while loop inside for loop that iterates through trinum[i]. Create a condition that checks if the remainder is 0 and if so increment numOfFactors. Then create a condition that checks if numOfFactors = 500 and if true print out "number with five hundred dividends is triNum[i]" and then break the for loop.
+
+
+
+public class SequenceOfTriangles {
+
+int num = 1000;
+
+int accumalator = 0;
+
+list triNum = new list();
+
+int[] triNum = [1000];
+
+public void numberSequence {
+
+ for (int iterVar = 0; iterVar < num; iterVar++) {
+      
+      accumulator = 0;
+
+       while (int z = 0; z < iterVar; z++ ) {
+       
+	accumululator = accumulator + z;
+
+       }
+
+	triNum[i] = accumulator;
+
+	while (i < triNum[i]) {
+
+        int increment;
+
+	if (i % triNum[i] == 0) {
+           
+           increment++;
+
+         }
+
+        if (increment == 500) {
+
+               System.out.println("This is the triangle number with 500                 dividends:" + triNum[i]);
+
+        }
+
+     }
+ }
+
+}
+
+}
