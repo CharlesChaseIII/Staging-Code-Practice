@@ -1,0 +1,34 @@
+//Charles Chase III Fibonacci Square Algorithm Practice
+
+
+public class FibonnachiSequence {
+
+List<Integer> fibSeq ArrayList<Integer>();
+
+fibSeq.add(1);
+
+fibSeq.add(2);
+
+ public void fibSeqGenerator(int num) {
+
+  for (int i = 0; i < num; i++) {
+   
+   accumulator = fibSeq.get(i) + fibSeq.get(i + 1);
+
+   fibSeq.add(accumulator);
+
+    if( fibSeq.get(i) % 2 = 0) {
+     
+       System.out.println(fibSeq.get(i));
+   
+    }
+
+   }
+
+  }
+
+ }
+
+}
+
+

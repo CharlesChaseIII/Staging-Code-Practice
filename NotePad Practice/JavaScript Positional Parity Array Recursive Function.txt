@@ -1,0 +1,23 @@
+// Charles Chase III Positional Parity Array Practice.
+
+function positionalParity(arr,par) {
+
+  //let arr = {4,10,36,60,90};
+
+    arrLength = arr.length();
+
+    incremIndx = 0;
+
+  for (int i = 0; arrLength >= i; arrLength -= 2) {
+	
+	par[incremIndx] = arr[arrLength];
+
+         
+	incremIndx++;
+  }
+
+  System.print(par.size());
+
+  positionalParity(arr,par);
+
+}
